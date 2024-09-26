@@ -1,0 +1,31 @@
+extends ./layout/index
+
+block contenido
+    main.container.mt-5
+        .row 
+            .col-md-5 
+                img(src="img/nosotros.jpg", alt="Nosotros Imagen", class="img-fluid")
+            .col-md-7
+                h1 #{pagina}
+                blockquote  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce vitae tincidunt arcu. Morbi sed eleifend tortor. Donec placerat molestie diam, vitae pulvinar eros maximus ut. 
+
+                p Nulla porttitor venenatis rhoncus. Nam blandit non augue in maximus. Integer tincidunt in nulla maximus fringilla. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Quisque euismod ipsum non hendrerit pulvinar. 
+
+                p Vestibulum id metus non urna vulputate egestas. Pellentesque sit amet magna molestie lorem viverra imperdiet quis sed ex. Suspendisse pulvinar arcu quis ipsum ultrices volutpat. Nunc dignissim, nulla vitae faucibus ornare, erat tellus pulvinar ligula, sed condimentum nibh enim a justo. Curabitur ultrices malesuada pretium. Vestibulum ipsum metus, tincidunt vel tincidunt suscipit, sollicitudin sit amet lorem.
+    .listado-iconos
+        .container.mt-5.py-5.-text-center
+            .row
+                .col-md-4
+                    img(src="img/icono_seguridad.svg", alt="icono seguridad", class="img-fluid mb-4")
+                    h2.mb-4 Seguridad
+                    p Vestibulum ipsum metus, tincidunt vel tincidunt suscipit, sollicitudin sit amet lorem.
+                
+                .col-md-4
+                    img(src="img/icono_destinos.svg", alt="icono destinos", class="img-fluid mb-4")
+                    h2.mb-4 Mejores Destinos
+                    p Vestibulum ipsum metus, tincidunt vel tincidunt suscipit, sollicitudin sit amet lorem.
+
+                .col-md-4
+                    img(src="img/icono_precios.svg", alt="icono precios", class="img-fluid mb-4")
+                    h2.mb-4 Los Mejores Precios
+                    p Vestibulum ipsum metus, tincidunt vel tincidunt suscipit, sollicitudin sit amet lorem.
